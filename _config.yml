@@ -1,0 +1,58 @@
+
+# SEO settings
+title: "Iulian, not Lulian "
+description: "Scala developer geek, Spark contributor"
+keywords: "Scala, compiler, engineering"
+url: http://iulidragos.com
+baseurl: null
+
+google_analytics: UA-73750486-1
+repo: http://github.com/dragos/simplest
+disqus_shortname: "dragos"
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+paginate: 4
+paginate_path: "/page/:num/"
+comments: true
+
+source: source
+destination: _site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : Iulian Dragos
+  job      : Software Engineer
+  bio      : "Long time Scala enthusiast, compiler and IDE developer turned Spark contributor."
+  thumb    : /images/author.jpg
+  email    : jaguarul@gmail.com
+  url      : http://iulidragos.com
+  github   : http://github.com/dragos
+  twitter  : http://twitter.com/jaguarul
+  linkedin : http://linkedin.com/in/iuliandragos
+
+# social settings
+og_locale: "pt_CH"
+twitter_card: "summary_large_image"
+twitter_site: "@jaguarul"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
