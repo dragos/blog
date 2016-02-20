@@ -33,7 +33,7 @@ Web-based (hosted) IDEs made an appearence via Rory's lightning talk: [Scalanato
 
 [scala-refactoring](https://github.com/scala-ide/scala-refactoring) is one of the oldest Scala libraries in tools-space and powers both the Eclipse plugin and Ensime. It is based on the presentation compiler, so in principle it should have access to the most precise type information possible under the sun. Unfortunately, it is plagued by many bugs that trace to a common source: Scala type-checker desugarings. Mathias Langer has done an amazing job in the past year by squashing bug after bug, marking the best refactorings we've ever had in Scala IDE for a while.
 
-In his talk Matthias[https://twitter.com/mlangc] highlighted the difficulties and challenges in working with the presentation compiler. His verdict: we need a common model for Scala source that is close enough to surface syntax (concrete syntax) and put an end to error-prone and incomplete heuristics when printing trees and un-desugaring them. 
+In his talk [Matthias](https://twitter.com/mlangc) highlighted the difficulties and challenges in working with the presentation compiler. His verdict: we need a common model for Scala source that is close enough to surface syntax (concrete syntax) and put an end to error-prone and incomplete heuristics when printing trees and un-desugaring them. 
 
 > Scala.Meta will save us all!
 
@@ -72,7 +72,7 @@ readFile(new File("README.md"))
 
 As the first day drew to a close and my tired brain was dreaming of a beer to wash it all out, there was "one more thing" to be done: since all Eclipse plugin developers were under the same roof, we'd have a planning session.
 
-What happened instead became be **the highlight** of this conference: we had an all-hands meeting with practically all tool authors in the same room! IntelliJ, Ensime, Scala.Meta, Eclipse, Scala Refactoring and even Dotty were up to some serious brainstorming for the greater Scala good!
+What happened instead became **the highlight** of this conference: we had an all-hands meeting with practically all tool authors in the same room! IntelliJ, Ensime, Scala.Meta, Eclipse, Scala Refactoring and even Dotty were up to some serious brainstorming for the greater Scala good!
 
 It all stated with the stringent problem of Scala refactorings: how can we improve their reliabilty, in the short-term and the long-term?
 
