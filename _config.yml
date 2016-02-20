@@ -3,11 +3,11 @@
 title: "Iulian, not Lulian "
 description: "Scala developer geek, Spark contributor"
 keywords: "Scala, compiler, engineering"
-url: http://iulidragos.com
+url: http://dragos.github.io
 baseurl: null
 
 google_analytics: UA-73750486-1
-repo: http://github.com/dragos/simplest
+repo: http://github.com/dragos/blog
 disqus_shortname: "dragos"
 
 # Build settings
